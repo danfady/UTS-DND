@@ -1,0 +1,190 @@
+<style>
+body {
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.collapse navbar-collapse {
+    position: fixed;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary {
+    position: fixed;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.logo-atas {
+    position:relative;
+    left: 20px;
+    top: 3px;    
+}
+
+
+.about {
+    height: 100vh;
+}
+
+.accordion-item {
+    border: 0;
+    background-color: #ffffff;
+}
+.accordion-body {
+    padding-left: 30px;
+    padding-top: 0px;
+} 
+.accordion {
+    position: sticky;
+    top: 100;
+}
+
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    box-shadow: none;
+    color: #000000;
+}
+
+.accordion-button{
+    padding: 10px;
+}
+
+.accordion-button::after {
+    margin-right: 20px;
+}
+
+.paragraph-atas {
+    margin: 30px 70px;
+}
+
+
+.foto-pertama {
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.foto-kedua {
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.foto-ketiga {
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+.pos-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.pos-wrap-2 {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    grid-gap: 15px;
+}
+
+.paragraph-kanan {
+    margin: 15px 15px 0px 0px;
+    
+}
+
+.foto-keempat {
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+.pos-wrap-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.garis {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.name-artwork {
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+.artwork-album {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #939393;
+}
+
+.year {
+    margin-top: 2px;
+    color: #939393;
+}
+
+.footer h3, .footer p {
+    margin-bottom: 10px;
+}
+
+
+body {
+    font-family: 'Inter';
+}
+
+h1, h2, h3 {
+    font-family: 'IBM Plex Sans';    
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1.9fr 1fr;
+    grid-gap: 15px;
+    padding: 40px;
+    background: #252525;
+    margin-top: 40px;
+}
+
+.footer-right {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 80px 0px;
+    
+}
+
+.footer img {
+    width: 60%;   
+    margin-left: 80px
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.to-top {
+    color: #ffffff;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none; 
+}
